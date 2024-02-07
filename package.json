@@ -1,0 +1,19 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.1",
+    "description": "social-network-api",
+    "main": "server.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node server",
+      "dev": "nodemon server"
+    },
+    "dependencies": {
+      "dayjs": "^1.11.10",
+      "express": "^4.17.1",
+      "mongoose": "^7.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.9"
+    }
+  }
